@@ -66,6 +66,8 @@ sc::result stDischarge2::react(const evHvbReady & evt)
 	const double y_left_pos = img_process::left_vertex_fine_pos(evt.img.yz_img, FS_DAT.y_left_abs);
 	const double y_right_pos = img_process::right_vertex_fine_pos(evt.img.yz_img, FS_DAT.y_right_abs);
 
+//	const double error_max = 12.0;
+//	const double error_min = -8.0;
 	const double error_max = 12.0;
 	const double error_min = -8.0;
 
